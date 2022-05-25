@@ -6,10 +6,10 @@ import pandas as pd
 
 def twitte_auth():
     try:
-        consumer_key = "OvupU7UuLbg9fCXSgUtOAQ2FA"
-        consumer_secret = "oMDNQPJQvLEYKyBzf3XbV87EGw7QoeRQzz0nCQ74UL1B2RANfA"
-        access_token = "2615042796-Obc9jn7th9xUa1IitSiXVZMNcxZviqv1hxUHm9Z"
-        access_secret = "nvE6lVY9HgPs7N6OIR4OSblH0UyMMtauNgJA13dBJwNzM"
+        consumer_key = ""
+        consumer_secret = ""
+        access_token = ""
+        access_secret = ""
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_secret)
